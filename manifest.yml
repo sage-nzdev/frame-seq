@@ -1,0 +1,13 @@
+modules:
+  confluence:globalPage:
+    - key: frame-seq-test-app
+      resource: main
+      render: native
+      title: Frame Seq Test App
+      route: frame-seq-test-app
+resources:
+  - key: main
+    path: src/frontend/index.jsx
+app:
+  runtime:
+    name: nodejs18.x
