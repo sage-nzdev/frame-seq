@@ -9,8 +9,6 @@ After setting up your development environment, you can now start testing the app
 3. Install all the necessary Node modules with `npm install`.
 4. Deploy the app with `forge deploy`.
 5. Install the app with `forge install`. When asked to select a product, choose `Confluence`. You'll also be asked to supply your site's URL.
-6. Create a page on your Confluence site.
-7. Add the app on the created page like a normal macro.
 
 
 ## References

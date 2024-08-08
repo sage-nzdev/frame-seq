@@ -1,11 +1,12 @@
 import React from 'react';
-import ForgeReconciler, { Text } from '@forge/react';
+import ForgeReconciler, { Text, Stack, Button } from '@forge/react';
 
 const App = () => {
   return (
-    <>
-      <Text>Hello world!</Text>
-    </>
+    <Stack>
+      <Text>Simple button counter</Text>
+      <Button>Click Me</Button>
+    </Stack>
   );
 };
 
